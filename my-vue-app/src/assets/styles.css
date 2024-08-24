@@ -1,0 +1,64 @@
+/* src/assets/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  button {
+    background-color: #42b983;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #36a872;
+  }
+  
+  input, textarea {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background: white;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  /* src/assets/styles.css */
+@media (max-width: 768px) {
+    .admin-view {
+      padding: 10px;
+      max-width: 100%;
+    }
+  
+    button {
+      padding: 8px;
+      font-size: 14px;
+    }
+  }
+  
+  /* Custom styles */
+.v-btn {
+    margin: 0 10px;
+  }
+  
